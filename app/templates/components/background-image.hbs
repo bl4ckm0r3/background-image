@@ -1,0 +1,4 @@
+{{#unless isLoaded}}
+  <div class="{{class}} loading" style={{computedStyle}}></div>
+{{/unless}}
+<div class="{{class}} {{if isLoaded 'loaded'}} {{if isPortrait 'portrait' 'landscape'}}" style={{computedStyle}}></div>
